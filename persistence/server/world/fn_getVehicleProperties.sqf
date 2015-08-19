@@ -40,6 +40,19 @@ switch (true) do
 	};
 };
 
+//Save lockstate by LouD
+_lockState = _veh getVariable "R3F_LOG_disabled";
+
+if (!isNil "_lockState") then
+{
+	_variables pushBack ["R3F_LOG_disabled", _lockState];
+}
+else
+{
+	_variables pushBack ["R3F_LOG_disabled", false];
+};
+
+
 _owner = _veh getVariable ["ownerUID", ""];
 
 _doubleBSlash = (call A3W_savingMethod == "extDB");
