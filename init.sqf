@@ -87,7 +87,6 @@ if (hasInterface || isServer) then
 	//init 3rd Party Scripts
 	if (isServer) then {call compile preprocessFile "addons\scripts\initBuildings.sqf";};
 	[] execVM "addons\R3F_LOG\init.sqf";
-	[] execVM "addons\R3F_ARTY_AND_LOG\init.sqf";
 	[] execVM "addons\proving_ground\init.sqf";
 	[] execVM "addons\lsd_nvg\init.sqf";
 	[] execVM "addons\zlt_fastrope\zlt_fastrope.sqf";
