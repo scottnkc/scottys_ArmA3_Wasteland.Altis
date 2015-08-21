@@ -79,6 +79,7 @@ A3W_fnc_towingHelper = [_serverFunc, "towingHelper.sqf"] call mf_compile;
 applyVehicleTexture = "client\systems\vehicleStore\applyVehicleTexture.sqf" call mf_compile;
 cargoToPairs = [_serverFunc, "cargoToPairs.sqf"] call mf_compile;
 detachTowedObject = [_serverFunc, "detachTowedObject.sqf"] call mf_compile;
+A3W_fnc_setLockState = { (objectFromNetId (_this select 0)) lock (_this select 1) } call mf_compile; 
 FAR_setKillerInfo = "addons\far_revive\FAR_setKillerInfo.sqf" call mf_compile;
 findSafePos = [_serverFunc, "findSafePos.sqf"] call mf_compile;
 fn_addScore = [_serverFunc, "fn_addScore.sqf"] call mf_compile;

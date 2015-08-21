@@ -127,16 +127,12 @@ _exclVehicleIDs = [];
 		};
 
 		{ _veh setVariable [_x select 0, _x select 1, true] } forEach _variables;
-
-		// If vehicle is was locked before restart then restore lockstate and make it untowable/unliftable LouD
-		if (_veh getVariable "R3F_LOG_disabled") then
-		{
+		
+		if (!isNil {_veh getVariable "ownerUID"}) then {
 			_veh lock 2;
-		} 
-		else 
-		{
-			_veh lock 1;
+			_veh setVariable ["R3F_LOG_disabled",true,true];
 		};
+
 		clearWeaponCargoGlobal _veh;
 		clearMagazineCargoGlobal _veh;
 		clearItemCargoGlobal _veh;
@@ -201,3 +197,4 @@ _exclVehicleIDs = [];
 diag_log format ["A3Wasteland - world persistence loaded %1 vehicles from %2", _vehCount, call A3W_savingMethodName];
 
 _exclVehicleIDs call fn_deleteVehicles;
+
