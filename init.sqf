@@ -97,5 +97,6 @@ if (hasInterface || isServer) then
 	[] execVM "addons\APOC_Airdrop_Assistance\init.sqf";
 	if (isNil "drn_DynamicWeather_MainThread") then { drn_DynamicWeather_MainThread = [] execVM "addons\scripts\DynamicWeatherEffects.sqf" };
 	[] execVM "addons\HvT\HvT.sqf"; 							// High Value Target
-	[] execVM "addons\AF_Keypad\AF_KP_vars.sqf";                            //added keypad
+//	[] execVM "addons\AF_Keypad\AF_KP_vars.sqf";                            //added keypad
+   _nul = []execVM "addons\AF_Keypad\AF_KP_vars.sqf";          //added keypad
 };
