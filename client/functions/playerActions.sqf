@@ -8,7 +8,7 @@
 
 { [player, _x] call fn_addManagedAction } forEach
 [
-     player addAction["Open Keypad",{createDialog "AF_Keypad";}],                         //i added
+    
 	["Holster Weapon", { player action ["SwitchWeapon", player, player, 100] }, [], -11, false, false, "", "vehicle player == player && currentWeapon player != ''"],
 	["Unholster Primary Weapon", { player action ["SwitchWeapon", player, player, 0] }, [], -11, false, false, "", "vehicle player == player && currentWeapon player == '' && primaryWeapon player != ''"],
 
@@ -41,8 +41,9 @@
 	
 	[format ["<img image='\a3\Ui_f\data\GUI\Cfg\CommunicationMenu\supplydrop_ca.paa' color='%1'/> <t color='%1'>[</t>Airdrop 
 
-<t color='%1'>]</t>", "#FF0000"],"addons\APOC_Airdrop_Assistance\APOC_cli_menu.sqf",[], -100, false, false]
+<t color='%1'>]</t>", "#FF0000"],"addons\APOC_Airdrop_Assistance\APOC_cli_menu.sqf",[], -100, false, false],
 	
+	 player addAction["Open Keypad",{createDialog "AF_Keypad";}],                         //i added
 ];
 
 
