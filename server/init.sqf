@@ -350,10 +350,14 @@ if (_playerSavingOn || _objectSavingOn || _vehicleSavingOn || _timeSavingOn || _
 						"A3W_objectIDs",
 						"A3W_vehicleIDs",
 <<<<<<< HEAD
+<<<<<<< HEAD
 						"A3W_baseSaving",        
 =======
 						"A3W_baseSaving",             //i change /*
 >>>>>>> parent of 0a64bf6... more add on
+=======
+						"A3W_baseSaving",        //i change 
+>>>>>>> parent of d65f0c3... forgot ,
 						"A3W_boxSaving",
 						"A3W_staticWeaponSaving",
 						"A3W_warchestSaving",
@@ -361,7 +365,7 @@ if (_playerSavingOn || _objectSavingOn || _vehicleSavingOn || _timeSavingOn || _
 						"A3W_spawnBeaconSaving",
 						"A3W_timeSaving",
 						"A3W_weatherSaving",
-						"A3W_serverSavingInterval",
+						"A3W_serverSavingInterval",*/
 						"A3W_hcObjSaving_serverKey",
 						"A3W_hcObjSaving_serverReady"
 					];
