@@ -157,15 +157,8 @@ _warchestMoneySavingOn = ["A3W_warchestMoneySaving"] call isConfigOn;
 _beaconSavingOn = ["A3W_spawnBeaconSaving"] call isConfigOn;
 _timeSavingOn = ["A3W_timeSaving"] call isConfigOn;
 _weatherSavingOn = ["A3W_weatherSaving"] call isConfigOn;
-<<<<<<< HEAD
-<<<<<<< HEAD
+
 _vehicleThermalsOn = ["A3W_vehicleThermals"] call isConfigOn;
-=======
-vehicleThermalsOn = ["A3W_vehicleThermals"] call isConfigOn;
->>>>>>> parent of 0a64bf6... more add on
-=======
-vehicleThermalsOn = ["A3W_vehicleThermals"] call isConfigOn;
->>>>>>> parent of 7effc68... dont know
 
 _purchasedVehicleSavingOn = ["A3W_purchasedVehicleSaving"] call isConfigOn;
 _missionVehicleSavingOn = ["A3W_missionVehicleSaving"] call isConfigOn;
@@ -349,15 +342,7 @@ if (_playerSavingOn || _objectSavingOn || _vehicleSavingOn || _timeSavingOn || _
 					[
 						"A3W_objectIDs",
 						"A3W_vehicleIDs",
-<<<<<<< HEAD
-<<<<<<< HEAD
 						"A3W_baseSaving",        
-=======
-						"A3W_baseSaving",             //i change /*
->>>>>>> parent of 0a64bf6... more add on
-=======
-						"A3W_baseSaving",        //i change 
->>>>>>> parent of d65f0c3... forgot ,
 						"A3W_boxSaving",
 						"A3W_staticWeaponSaving",
 						"A3W_warchestSaving",
