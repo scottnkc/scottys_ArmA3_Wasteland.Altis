@@ -43,7 +43,7 @@
 
 <t color='%1'>]</t>", "#FF0000"],"addons\APOC_Airdrop_Assistance\APOC_cli_menu.sqf",[], -100, false, false],
 	
-	 player addAction["Open Keypad",{createDialog "AF_Keypad";}],                         //i added
+	 
 ];
 
 
