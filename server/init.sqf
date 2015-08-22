@@ -158,10 +158,14 @@ _beaconSavingOn = ["A3W_spawnBeaconSaving"] call isConfigOn;
 _timeSavingOn = ["A3W_timeSaving"] call isConfigOn;
 _weatherSavingOn = ["A3W_weatherSaving"] call isConfigOn;
 <<<<<<< HEAD
+<<<<<<< HEAD
 _vehicleThermalsOn = ["A3W_vehicleThermals"] call isConfigOn;
 =======
 vehicleThermalsOn = ["A3W_vehicleThermals"] call isConfigOn;
 >>>>>>> parent of 0a64bf6... more add on
+=======
+vehicleThermalsOn = ["A3W_vehicleThermals"] call isConfigOn;
+>>>>>>> parent of 7effc68... dont know
 
 _purchasedVehicleSavingOn = ["A3W_purchasedVehicleSaving"] call isConfigOn;
 _missionVehicleSavingOn = ["A3W_missionVehicleSaving"] call isConfigOn;
