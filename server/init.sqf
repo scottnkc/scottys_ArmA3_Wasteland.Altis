@@ -141,8 +141,7 @@ if (isServer) then
 		"A3W_hcObjCaching",
 		"A3W_hcObjCachingID",
 		"A3W_hcObjSaving",
-		"A3W_hcObjSavingID",
-		"A3W_gearsEnabled"
+		"A3W_hcObjSavingID"
 	];
 
 	["A3W_join", "onPlayerConnected", { [_id, _uid, _name] spawn fn_onPlayerConnected }] call BIS_fnc_addStackedEventHandler;
@@ -158,7 +157,11 @@ _warchestMoneySavingOn = ["A3W_warchestMoneySaving"] call isConfigOn;
 _beaconSavingOn = ["A3W_spawnBeaconSaving"] call isConfigOn;
 _timeSavingOn = ["A3W_timeSaving"] call isConfigOn;
 _weatherSavingOn = ["A3W_weatherSaving"] call isConfigOn;
+<<<<<<< HEAD
 _vehicleThermalsOn = ["A3W_vehicleThermals"] call isConfigOn;
+=======
+vehicleThermalsOn = ["A3W_vehicleThermals"] call isConfigOn;
+>>>>>>> parent of 0a64bf6... more add on
 
 _purchasedVehicleSavingOn = ["A3W_purchasedVehicleSaving"] call isConfigOn;
 _missionVehicleSavingOn = ["A3W_missionVehicleSaving"] call isConfigOn;
@@ -278,7 +281,7 @@ if (_playerSavingOn || _objectSavingOn || _vehicleSavingOn || _timeSavingOn || _
 
 				["A3W_flagCheckOnJoin", "onPlayerConnected", { [_uid, _name] spawn fn_kickPlayerIfFlagged }] call BIS_fnc_addStackedEventHandler;
 
-				{ [getPlayerUID _x, name _x] call fn_kickPlayerIfFlagged } forEach allPlayers;
+				{ [getPlayerUID _x, name _x] call fn_kickPlayerIfFlagged } forEach (call fn_allPlayers);
 			};
 		};
 	};
@@ -342,7 +345,11 @@ if (_playerSavingOn || _objectSavingOn || _vehicleSavingOn || _timeSavingOn || _
 					[
 						"A3W_objectIDs",
 						"A3W_vehicleIDs",
+<<<<<<< HEAD
 						"A3W_baseSaving",        
+=======
+						"A3W_baseSaving",             //i change /*
+>>>>>>> parent of 0a64bf6... more add on
 						"A3W_boxSaving",
 						"A3W_staticWeaponSaving",
 						"A3W_warchestSaving",
