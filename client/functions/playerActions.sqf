@@ -8,6 +8,7 @@
 
 { [player, _x] call fn_addManagedAction } forEach
 [
+     player addAction["Open Keypad",{createDialog "AF_Keypad";}],                         //i added
 	["Holster Weapon", { player action ["SwitchWeapon", player, player, 100] }, [], -11, false, false, "", "vehicle player == player && currentWeapon player != ''"],
 	["Unholster Primary Weapon", { player action ["SwitchWeapon", player, player, 0] }, [], -11, false, false, "", "vehicle player == player && currentWeapon player == '' && primaryWeapon player != ''"],
 
