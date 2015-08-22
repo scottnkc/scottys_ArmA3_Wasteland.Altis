@@ -599,7 +599,6 @@ genObjectsArray = compileFinal str
 	//["Metal Barrel", "Land_MetalBarrel_F", 25, "object"],
 	//["Toilet Box", "Land_ToiletBox_F", 25, "object"],
 	["Lamp Post (Harbour)", "Land_LampHarbour_F", 450, "object"],
-	["Lamp halogon)", "Land_lamphalogen_F", 450, "object"],
 	["Lamp Post (Shabby)", "Land_LampShabby_F", 450, "object"],
 	["Boom Gate", "Land_BarGate_F", 450, "object"],
 	["Pipes", "Land_Pipes_Large_F", 250, "object"],
@@ -631,8 +630,6 @@ genObjectsArray = compileFinal str
 	["Bag Bunker (Large)", "Land_BagBunker_Large_F", 800, "object"],
 	["Bag Bunker Tower", "Land_BagBunker_Tower_F", 5000, "object"],
 	["Military Cargo Post", "Land_Cargo_Patrol_V1_F", 3800, "object"],
-	["Military Cargo Tower tall", "Land_Cargo_Tower_V1_F", 10000, "object"],
-	["Military Cargo Tower small", "Land_Cargo_Tower_V2_F", 5000, "object"],
 	["Concrete Ramp", "Land_RampConcrete_F", 1000, "object"],
 	["Concrete Ramp (High)", "Land_RampConcreteHigh_F", 1000, "object"],
 	["Scaffolding", "Land_Scaffolding_F", 850, "object"]
