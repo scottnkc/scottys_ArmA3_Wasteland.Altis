@@ -36,7 +36,7 @@ else
 	// gearLevel1
 	gearLevel1 = compileFinal str
 	[
-		// Put player UIDs here
+	"76561198030386431"	// Put player UIDs here
 	];
 
 	// gearLevel2
