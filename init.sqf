@@ -98,5 +98,6 @@ if (hasInterface || isServer) then
 	[] execVM "addons\Grenades\initGrenades.sqf"; // Toxic Gas Grenades by Mokey
 	if (isNil "drn_DynamicWeather_MainThread") then { drn_DynamicWeather_MainThread = [] execVM "addons\scripts\DynamicWeatherEffects.sqf" };
 	[] execVM "addons\HvT\HvT.sqf"; 							// High Value Target
-	[] execVM "addons\AF_Keypad\AF_KP_vars.sqf";                            //added keypad
+	[] execVM "addons\AF_Keypad\AF_KP_vars.sqf";	//added keypad
+	[] execVM "addons\gear\default_gear.sqf";
 };

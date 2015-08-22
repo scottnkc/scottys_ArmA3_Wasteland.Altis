@@ -16,7 +16,7 @@
 // gearLevel1
 gearLevel1 = 
 [
-	"76561198030386431" //Mokey
+	"76561198030386431" //SCOTTY
 ];
 
 // gearLevel2
