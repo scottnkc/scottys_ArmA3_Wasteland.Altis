@@ -141,7 +141,8 @@ if (isServer) then
 		"A3W_hcObjCaching",
 		"A3W_hcObjCachingID",
 		"A3W_hcObjSaving",
-		"A3W_hcObjSavingID"
+		"A3W_hcObjSavingID",
+		"A3W_gearsEnabled"
 	];
 
 	["A3W_join", "onPlayerConnected", { [_id, _uid, _name] spawn fn_onPlayerConnected }] call BIS_fnc_addStackedEventHandler;
@@ -158,7 +159,6 @@ _beaconSavingOn = ["A3W_spawnBeaconSaving"] call isConfigOn;
 _timeSavingOn = ["A3W_timeSaving"] call isConfigOn;
 _weatherSavingOn = ["A3W_weatherSaving"] call isConfigOn;
 
-_vehicleThermalsOn = ["A3W_vehicleThermals"] call isConfigOn;
 
 _purchasedVehicleSavingOn = ["A3W_purchasedVehicleSaving"] call isConfigOn;
 _missionVehicleSavingOn = ["A3W_missionVehicleSaving"] call isConfigOn;
@@ -342,7 +342,7 @@ if (_playerSavingOn || _objectSavingOn || _vehicleSavingOn || _timeSavingOn || _
 					[
 						"A3W_objectIDs",
 						"A3W_vehicleIDs",
-						"A3W_baseSaving",        
+						"A3W_baseSaving",             //i change /*
 						"A3W_boxSaving",
 						"A3W_staticWeaponSaving",
 						"A3W_warchestSaving",
@@ -350,7 +350,7 @@ if (_playerSavingOn || _objectSavingOn || _vehicleSavingOn || _timeSavingOn || _
 						"A3W_spawnBeaconSaving",
 						"A3W_timeSaving",
 						"A3W_weatherSaving",
-						"A3W_serverSavingInterval",*/
+						"A3W_serverSavingInterval",
 						"A3W_hcObjSaving_serverKey",
 						"A3W_hcObjSaving_serverReady"
 					];
